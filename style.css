@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: "Bitter", serif;
+  margin: auto;
+}
+header {
+  background-color: #12cbc4;
+  color: white;
+  border-bottom-left-radius: 1.5rem;
+}
+nav {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  gap: 2rem;
+}
+.navigation-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+main {
+  margin: auto;
+}
+.hero {
+  padding: 2rem;
+}
+.hero-img {
+  max-width: 400px;
+  width: 80vw;
+  display: block;
+  margin: auto;
+}
+#pitch {
+  margin-top: 2rem;
+  text-align: center;
+  color: #ea2027;
+}
+
+.tech-stack {
+  background-color: #dffffe;
+  padding: 1.5em;
+}
+.container {
+  padding: 1.5rem;
+  text-align: center;
+}
+.container h1 {
+  margin-bottom: 1rem;
+}
