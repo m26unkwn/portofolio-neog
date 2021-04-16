@@ -8,6 +8,7 @@
 
 body {
   font-family: "Bitter", serif;
+  margin: 0;
 }
 header {
   background-color: #12cbc4;
@@ -101,7 +102,6 @@ main {
 footer {
   background-color: #12cbc4;
   border-top-right-radius: 1.5rem;
-  color: re;
   padding: 0.5rem 0rem;
   text-align: center;
 }
@@ -127,4 +127,9 @@ footer {
 }
 .project-data {
   padding: 1rem;
+}
+
+#blogtitle {
+  text-align: center;
+  color: #12cbc4;
 }
